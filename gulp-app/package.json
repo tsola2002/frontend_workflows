@@ -1,0 +1,22 @@
+{
+  "name": "gulp-app",
+  "version": "0.0.0",
+  "description": "gulpjs plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "gulpjs"
+  ],
+  "author": "omatsola isaac sobotie",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.8.6",
+    "gulp-minify-css": "^0.3.7"
+  }
+}
