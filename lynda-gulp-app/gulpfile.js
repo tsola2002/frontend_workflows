@@ -56,3 +56,6 @@ gulp.task('compass', function() {
             .on('error', gutil.log))
         .pipe(gulp.dest('builds/development/css'))
 });
+
+//custom gulp task to run all tasks
+gulp.task('default', ['coffee', 'js', 'compass'])
