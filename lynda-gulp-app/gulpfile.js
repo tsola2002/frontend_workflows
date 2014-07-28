@@ -57,5 +57,14 @@ gulp.task('compass', function() {
         .pipe(gulp.dest('builds/development/css'))
 });
 
+
+gulp.task('watch', function() {
+    //when any coffeSources file changes run coffee method
+    gulp.watch(coffeeSources, ['coffee']);
+    gulp.watch(jsSources, ['js']);
+    //when any file with a .scss extension changes, we run the compass task
+    gulp.watch('components/sass/*.scss', ['compass']);
+});
+
 //custom gulp task to run all tasks
-gulp.task('default', ['coffee', 'js', 'compass'])
+gulp.task('default', ['coffee', 'js', 'compass', 'watch'])
