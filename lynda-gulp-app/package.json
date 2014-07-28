@@ -1,0 +1,15 @@
+{
+  "name": "lynda-gulp-app",
+  "version": "0.0.1",
+  "description": "my sample gulp app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "omatsola isaac sobotie",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.8.6",
+    "gulp-util": "^3.0.0"
+  }
+}
